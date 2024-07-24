@@ -5,7 +5,7 @@ ul{
     overflow: hidden;
     margin: 0;
     padding: 0;
-    list-style-type: none
+    list-style-type: none;
     overflow: hidden;
 margin: 0;
 padding: 0;
@@ -25,5 +25,20 @@ li a{
 }
 li a:hover{
     background-color: #1d3557;
+
+}
+
+
+ol{
+    list-style:none;
+    counter-reset: contador;
+
+}
+ol li{
+    counter-increment: contador;
+}
+ol li::before{
+    content: 'Persona ' counter(contador) ') ';
+    color: #ff6f00;
 
 }
