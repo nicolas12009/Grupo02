@@ -5,3 +5,47 @@ h1{
     color: crimson;
     text-align: center;
 }
+.parrafo{
+    text-align: center;
+}
+
+.grande{
+    font-size: 50px;
+}
+*{
+    background-color: gold;
+
+}
+
+p.centrar{
+    text-align: center;
+}
+
+.rojo{
+    border: solid firebrick;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+
+
+.rosa{
+     border: 10px inset hotpink;
+     border-width: thick;
+}
+
+
+
+.amarillo{
+     border: 10px ridge gold;
+     border-width: medium;
+
+}
+
+
+
+.azul{
+     border: 10px groove turquoise;
+     border-width: thin;
+
+}
