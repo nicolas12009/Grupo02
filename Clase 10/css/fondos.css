@@ -5,12 +5,8 @@ body{
 
 }
 
+
 h1 {
-    background-color: #ef476f;
-    background-color: beige;
-    text-align: center;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 2px #ced4da;
-    letter-spacing: 7px;
-    word-spacing: 6px;
-}
+    background-color: dodgerblue;
+
+} 
