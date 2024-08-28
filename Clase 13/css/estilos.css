@@ -1,13 +1,37 @@
 div{
-    width: 50%;
     border: 3px solid firebrick;
-    margin: auto;
-    position: relative;
-    top: 100px;
-    left: 50px;
+    top: 0px;
+    left: 0px;
+    position: sticky;
 } 
 
 h1{
     text-align: center;
     color: crimson;
 } 
+div.contenedor{
+    border: 3px dashed greenyellow;
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    overflow: auto;
+}
+
+div.contenedor.flotado{
+    float: left;
+}
+div.contenedor.flotado.contenedor1{
+    border: 3px dashed greenyellow;
+}
+div.contenedor.flotado.contenedor2{
+    border: 3px dashed cornflowerblue;
+    float: right;
+}
+div.contenedor.contenedor3{
+    clear: both;
+   
+border: 3px dashed darkorange;
+    margin: auto
+}
+
