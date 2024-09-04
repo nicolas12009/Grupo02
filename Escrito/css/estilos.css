@@ -57,3 +57,24 @@ body {
     text-align: center;
     margin-top: 20px;
 }
+.centrar-lista {
+  text-align: center;
+}
+.centrar-lista ul {
+  display: inline-block;
+  padding: 0;
+}
+.centrar-lista {
+  text-align: center;
+}
+.centrar-lista li {
+  display: inline-block;
+  margin: 0 10px;
+}
+h2{
+ text-align: center;
+}
+.contenedor {
+  text-align: center;
+}
+

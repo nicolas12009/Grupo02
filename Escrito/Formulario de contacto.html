@@ -5,15 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de contacto</title>
     <link rel='stylesheet' href="css/Formulario de contacto.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel= "stylesheet" />
 </head>
 <body>
+    <div class="centrar-lista">
     <ul>
         <li><a href="index.html">Volver al inicio</a></li>
         <li><a href="Productos de Apple.html">Productos de Apple</a></li>
         <li><a href="Valor de los productos.html">Valor de los productos</a></li>
         <li><a href="https://www.apple.com/la/iphone/">Página de Apple</a></li> 
         </ul>
+        </div>
     <h1>Formulario de contacto de Apple</h1>
+    <div class="contenedor">
+        <span class="material-symbols-outlined">
+            mark_email_unread
+            </span>
+    </div>
     <form>
         <label>Nombre:</label>
         <input required="true" placeholder="Escribe tu nombre" type="text" id="nombre" name="nombre">
@@ -22,11 +30,16 @@
         <input type="email" placeholder="Escribe tu email" id="email" name="email" required="true" />
         <br />
         <label>Mensaje:</label><br />
-        <input type="mensaje" placeholder="Escribe un mensaje" id="mensaje" name="mensaje" required="true" />
+        <input type="text" placeholder="Escribe un mensaje" id="mensaje" name="mensaje" required="true" />
         <br>
         <input type="submit" value="Enviar" />
     </form>
     <h2>Formulario de inicio de sesión</h2>
+    <div class="contenedor">
+    <span class="material-symbols-outlined">
+        login
+        </span>
+        </div>
     <form>
         <label>Nombre de usuario:</label>
         <input required="true" placeholder="Escribe tu nombre de usuario" type="text" id="nombre de usuario" name="nombre de usuario">

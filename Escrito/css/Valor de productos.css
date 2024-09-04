@@ -74,6 +74,15 @@ body {
   h1{
     text-align: center;
   }
- 
+  .centrar-lista {
+    text-align: center;
+  }
+  .centrar-lista ul {
+    display: inline-block;
+    padding: 0;
+  }
+  .contenedor{
+    text-align: center;
+  }
 
  
