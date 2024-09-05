@@ -58,7 +58,7 @@ body {
     margin-top: 20px;
 }
 .centrar-lista {
-  text-align: center;
+  text-align: right;
 }
 .centrar-lista ul {
   display: inline-block;
@@ -77,4 +77,8 @@ h2{
 .contenedor {
   text-align: center;
 }
+ol li::before{
+  content: 'Hito ' counter(contador) ') ';
+  color: #ff0000;
 
+}
