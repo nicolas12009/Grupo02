@@ -29,12 +29,14 @@ body {
   }
   p {
     color: #a07a7a;
+    text-align: center;
   }
   h1 {
     text-align: center;
+    padding: 0;
+    text-shadow: 2px 2px 2px #a8dadc;
+    color: #000;
   }
-  p{
-    text-align: center; }
 body{
     margin:0;
     padding:0;
@@ -80,10 +82,6 @@ body{
 .contenedor .elemento input[type="submit"]:hover {
     background-color: #d7236f;
 }
-h1 {
-    text-align: center;
-    padding: 0;
-  }
   .centrar-lista {
     text-align: center;
   }

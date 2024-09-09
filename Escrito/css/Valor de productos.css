@@ -51,6 +51,8 @@ body {
   }
   h1{
     text-align: center;
+    text-shadow: 2px 2px 2px #a8dadc;
+    color: #000;
   }
   .centrar-lista {
     text-align: center;
