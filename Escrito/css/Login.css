@@ -20,13 +20,6 @@ li a{
 li a:hover{
     background-color: #1d3557;
 }
-body {
-    background-color: #e0e0e0;
-  }
-  p {
-    color: #a07a7a;
-    text-align: center;
-  }
   h1 {
     text-align: center;
     padding: 0;
@@ -44,15 +37,6 @@ body{
     padding: 30px;
     background: rgba(0,0,0,.5);
     border-radius: 10px;
-}
-.contenedor h1{
-    margin: 0 0 30px;
-    padding: 0;
-    font-size: 30px;
-    color: #4cc9f0;
-
-    text-align: center;
-
 }
 .contenedor .elemento label{
     color: #fff;
