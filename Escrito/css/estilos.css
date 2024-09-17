@@ -52,9 +52,6 @@ body {
   display: inline-block;
   padding: 0;
 }
-.centrar-lista {
-  text-align: center;
-}
 .centrar-lista li {
   display: inline-block;
   margin: 0 10px;
@@ -64,13 +61,9 @@ h2{
  text-shadow: 2px 2px 2px #a8dadc;
  color: #000;
 }
-.contenedor {
-  text-align: center;
-}
 ol li::before{
   content: 'Hito ' counter(contador) ') ';
   color: #ff0000;
-
 }
 h3{
   text-align: center;
