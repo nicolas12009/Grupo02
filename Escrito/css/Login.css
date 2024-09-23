@@ -30,6 +30,7 @@ body{
     margin:0;
     padding:0;
     background: linear-gradient(#f5f5dc, #8b4513);
+    text-align: center;
 }
 .contenedor{
     margin: 50px auto;
@@ -40,15 +41,6 @@ body{
 }
 .contenedor .elemento label{
     color: #fff;
-}
-.contenedor .elemento input [type="submit"]:hover{
-    width: 100%;
-    padding: 10px 0;
-    color: #fff;
-    background: transparent;
-    border:none;
-    border-bottom: 1px solid #fff;
-    margin-bottom: 30px;
 }
 .contenedor .elemento input[type="submit"]{
     background-color: #f72585;
@@ -62,15 +54,9 @@ body{
 .contenedor .elemento input[type="submit"]:hover {
     background-color: #d7236f;
 }
-  .centrar-lista {
-    text-align: center;
-  }
   .centrar-lista ul {
     display: inline-block;
   }
-  body {
-    text-align: center; 
-}
 form {
     display: inline-block; 
     text-align: left;

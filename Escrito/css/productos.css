@@ -26,14 +26,12 @@ body {
   }
   p {
     color: #a07a7a;
+    text-align: center;
   }
   h1 {
     text-align: center;
     text-shadow: 2px 2px 2px #a8dadc;
     color: #000;
-  }
-  p{
-    text-align: center;
   }
   .contenedor {
     text-align: center;
